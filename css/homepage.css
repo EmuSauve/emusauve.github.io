@@ -1,0 +1,321 @@
+/* Homepage styles */
+
+/* Hero Space */
+.heroSpace {
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.heroSpace .contentMaxWidth {
+    display: flex;
+    align-items: center;
+}
+
+.heroTextBox {
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+#heroTitle {
+    font-size: 65px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.coloredText {
+    color: #EFBA00;
+}
+
+.heroParagraph {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 22px;
+    width: 86%;
+}
+
+.highlightedText {
+    background: linear-gradient(transparent 60%, #FFD935 0%);
+}
+
+.heroTextBox a {
+    color: #282828;
+    text-decoration: underline;
+}
+
+.heroTextBox a:hover {
+    color: #EFBA00;
+}
+
+.heroImageBox {
+    padding-top: 45px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.heroImageBox img {
+    width: 100%;
+}
+
+/* Projects */
+.projectsSection {
+    margin-bottom: 120px;
+}
+
+.projectContainer {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 50px;
+}
+
+.project1 {
+    background-color: #4C956C;
+}
+
+.project2 {
+    background-color: #26374A;
+}
+
+.project3 {
+    background-color: #007FA0;
+}
+
+.project4 {
+    background-color: #0060A7;
+}
+
+.projectTextBox {
+    color: white;
+    width: 50%;
+    padding: 6% 0% 6% 5%;
+}
+
+.myRole {
+    font-size: 15px;
+}
+
+.projectTextBox img {
+    margin-bottom: 10%;
+}
+
+.projectTextBox h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.projectTitleImage1 {
+    width: 40%;
+}
+
+.projectTitleImage2 {
+    width: 100%;
+}
+
+.projectTitleImage3 {
+    width: 90%;
+}
+
+.projectTitleImage4 {
+    width: 70%;
+}
+
+.projectImageBox {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    background-position: center;
+}
+
+.projectImage1 {
+    background-image: url("../images/Image-Eva.png");
+}
+
+.projectImage2 {
+    background-image: url("../images/Image-ISC.png");
+}
+
+.projectImage3 {
+    background-image: url("../images/Image-PollutionProbe.png");
+}
+
+.projectImage4 {
+    background-image: url("../images/Image-Costco.png");
+}
+
+
+/* Skills */
+.skillsSection {
+    margin-bottom: 120px;
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "skill1 skill2 skill3 skill4"
+    ;
+}
+
+.skillBox {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.skillBox h3 {
+    margin: 10px 0 15px;
+    font-weight: 500;
+}
+
+.skillBox img {
+    width: 75%;
+}
+
+.skill1 {
+    grid-area: skill1;
+}
+
+.skill2 {
+    grid-area: skill2;
+}
+
+.skill3 {
+    grid-area: skill3;
+}
+
+.skill4 {
+    grid-area: skill4;
+}
+
+
+/* Media query */
+/* Tablets(less than 992px) */
+@media only screen and (max-width: 991.98px) {    
+    /* Hero Space */
+      #heroTitle {
+        font-size: 45px;
+    }
+
+    .heroParagraph {
+        font-size: 18px;
+    }
+
+    /* Projects */
+    .projectContainer {
+        margin-bottom: 20px;
+    }
+
+    /* Skills */
+    .skillsContainer {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 60px;
+        grid-template-areas:
+        "skill1 skill2"
+        "skill3 skill4"
+        ;
+    }
+
+    .skillBox img {
+        width: 60%;
+    }
+
+    .skillBox h3 {
+        margin: 5px 0 10px;
+    }
+  
+}
+
+/* Phones(less than 768px) */
+@media only screen and (max-width: 767.98px) { 
+    /* Hero Space */
+    .heroSpace {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .heroSpace .contentMaxWidth {
+        flex-direction: column;
+    }
+
+    .heroTextBox {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #heroTitle {
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .heroParagraph {
+        font-size: 19px;
+        width: 100%;
+    }
+
+    .heroTextBox a {
+        font-size: 17px;
+    }
+
+    .heroImageBox {
+        padding-top: 0px;
+        justify-content: center;
+    }
+    
+    .heroImageBox img {
+        width: 80%;
+    }
+
+    /* Projects */
+    .projectsSection .contentMaxWidth {
+        width: 100%;
+        text-align: center;
+    }
+
+    .projectsSection {
+        margin-bottom: 30px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    
+    .projectTextBox {
+        width: 100%;
+        padding: 10% 10% 5% 10%;
+    }
+
+    .projectImageBox {
+        background-position: top;
+        height: 70vw;
+        width: 100%;
+    }
+
+    .projectImageBox.projectImage4{
+        background-position: center;
+        height: 50vw;
+    }
+
+    /* Skills */
+    .skillsSection {
+        margin-bottom: 60px;
+    }
+
+    .skillsContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-template-areas:
+        "skill1"
+        "skill2"
+        "skill3"
+        "skill4"
+        ;
+    }
+
+    .skillBox img {
+        width: 50%;
+    }
+}

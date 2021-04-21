@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emu Sauve</title>
+    <!-- Style sheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="contentMaxWidth">
+            <div class="logoAndMenu">
+                <a href="index.html"><img class="logoImage" src="images/logo.svg" alt="Emu Sauve / Home"></a>
+                <!--Menu normal-->
+                <nav class="headerNav">
+                    <ul class="desktopMenu">
+                        <li><a id="onThePage" href="#projects">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Résumé</a></li>
+                    </ul>
+                </nav>
+                <!--Menu mobile-->
+                <div class="mobileMenu">
+                    <a class="mobileMenuIcon" href="#"><img src="images/hamburger.svg" alt="Menu icon"></a>
+                </div>
+            </div>
+        </div>
+        <nav class="headerNav mobileToggleMenu">
+            <div class="contentMaxWidth">
+                <ul>
+                    <a href="#projects">
+                        <li>Projects</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li id="lastToggleMenu">Résumé</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero space -->
+    <section class="heroSpace">
+        <div class="contentMaxWidth">
+            <div class="heroTextBox">
+                <h1 id="heroTitle">Hello, I’m <span class="coloredText">Emu!</span></h1>
+                <p class="heroParagraph">I am a <strong class="highlightedText">UX/UI designer</strong> with a
+                    background as a web designer in Japan. I’m interested in creating harmonious relationships between
+                    users and products using creative and empathic design. </p>
+                <p><a href="#">Email</a> / <a href="#">LinkedIn</a></p>
+            </div>
+            <div class="heroImageBox">
+                <img src="images/profile.svg" alt="My profile image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projectsSection" id="projects">
+        <div class="contentMaxWidth">
+            <h1 class="homepageContentH1">Projects</h1>
+            <!-- Eva -->
+            <a href="eva.html">
+                <div class="projectContainer project1">
+                    <div class="projectTextBox">
+                        <img class="projectTitleImage1" src="images/logo-Eva.svg" alt="Eva logo image">
+                        <h3 class="projectH3">Plant care mobile app design</h3>
+                        <p>Designing a personal assistant app which helps novice plant owners better understand plant
+                            care and gain confidence in their abilities.
+                            <br><br><span class="myRole">My role: UX researcher, UX/UI designer</span>
+                        </p>
+                    </div>
+                    <div class="projectImageBox projectImage1">
+                    </div>
+                </div>
+            </a>
+            <!-- ISC -->
+            <a href="isc.html">
+                <div class="projectContainer  project2">
+                    <div class="projectTextBox">
+                        <img class="projectTitleImage2" src="images/logo-ISC.svg"
+                            alt="Indigenous Services Canada logo image">
+                        <h3 class="projectH3">Government agency website redesign</h3>
+                        <p>Redesigning the Indigenous Services Canada (ISC) website with an improved navigation system
+                            and user-friendly content/layout.
+                            <br><br><span class="myRole">My role: UX researcher, UX/UI designer</span>
+                        </p>
+                    </div>
+                    <div class="projectImageBox projectImage2">
+                    </div>
+                </div>
+            </a>
+            <!-- Pollution Probe -->
+            <a href="pollution-probe.html">
+                <div class="projectContainer project3">
+                    <div class="projectTextBox">
+                        <img class="projectTitleImage3" src="images/logo-PollutionProbe.svg"
+                            alt="Pollution Probe logo image">
+                        <h3 class="projectH3">Non-profit organization website redesign</h3>
+                        <p>Redesigning and organizing an environmental conservation group's content-heavy website to
+                            visually communicate their goals, history, and brand.
+                            <br><br><span class="myRole">My role: UX researcher, UX/UI designer, Logo designer</span>
+                        </p>
+                    </div>
+                    <div class="projectImageBox projectImage3">
+                    </div>
+                </div>
+            </a>
+            <!-- Costco -->
+            <a href="costco.html">
+                <div class="projectContainer project4">
+                    <div class="projectTextBox">
+                        <img class="projectTitleImage4" src="images/logo-Costco.svg"
+                            alt="Costco Wholesale logo image">
+                        <h3 class="projectH3">Costco Wholesale website redesign</h3>
+                        <p>Redesigning Costco's website to provides users quick and easy access to all products/deals and prototyping redesigned pages with HTML, CSS, and Javascript.
+                            <br><br><span class="myRole">My role: UX researcher, Front-End developer</span>
+                        </p>
+                    </div>
+                    <div class="projectImageBox projectImage4">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skillsSection">
+        <div class="contentMaxWidth">
+            <h1 class="homepageContentH1">Skills</h1>
+            <div class="skillsContainer">
+                <!-- User research -->
+                <div class="skillBox skill1">
+                    <img src="images/skill-userResearch.svg" alt="User research image">
+                    <h3>User research</h3>
+                    <p>Seek user insights that clarify the core problem and user needs by using both quantitative and
+                        qualitative data. </p>
+                </div>
+                <!-- User empathy -->
+                <div class="skillBox skill2">
+                    <img src="images/skill-userEmpathy.svg" alt="User empathy image">
+                    <h3>User empathy</h3>
+                    <p>Get to the bottom of user insights by repeatedly asking “why” and see the problem from users’
+                        points of view.</p>
+                </div>
+                <!-- Visual design -->
+                <div class="skillBox skill3">
+                    <img src="images/skill-visualDesign.svg" alt="Visual design image">
+                    <h3>Visual design</h3>
+                    <p>Create not only beautuful, but also usable designs with an obsessive attention to detail.</p>
+                </div>
+                <!-- Prototyping -->
+                <div class="skillBox skill4">
+                    <img src="images/skill-prototyping.svg" alt="Prototyping image">
+                    <h3>Prototyping</h3>
+                    <p>Able to prototype quickly and effectively to communicate the design idea and also validate
+                        assumptions by testing.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="contentMaxWidth">
+            <h1 class="homepageContentH1">Let’s connect!</h1>
+            <nav class="footerNav">
+                <a href="#"><img src="images/contact-email.svg" alt="Email"></a>
+                <a href="#"><img src="images/contact-linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="images/contact-github.svg" alt="Github"></a>
+                <a href="#"><img src="images/contact-dribbble.svg" alt="Dribble"></a>
+            </nav>
+            <p class="copyRight">Copyright ©︎ 2021 Emu Sauve</p>
+        </div>
+    </footer>
+
+</body>
+
+<!-- Java script and jQuery-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</html>

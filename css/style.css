@@ -1,0 +1,315 @@
+/* Common styles throughout the website */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #282828;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 43px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contentMaxWidth {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.homepageContentH1 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.highlightedText {
+    background: linear-gradient(transparent 60%, #FFD935 0%);
+}
+
+.buttonStyle {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.buttonStyle:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+}
+
+.responsiveFlexBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nonresponsiveFlexBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Project color */
+
+.evaColor {
+    background-color: #4C956C;
+}
+
+.evaSubColor {
+    background-color: #8FC0A9;
+}
+
+.iscColor {
+    background-color: #26374A;
+}
+
+.iscSubColor {
+    background-color: #396699;
+}
+
+.pollutionProbeColor {
+    background-color: #007FA0;
+}
+
+.pollutionProbeSubColor {
+    background-color: #76AE00;
+}
+
+
+
+/* Header */
+header {
+    background-color: white;
+}
+
+.logoAndMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+/* Navigation */
+.headerNav{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.desktopMenu {
+    display: flex;
+    width: 375px;
+    justify-content: space-between;
+}
+
+.headerNav a:link {
+    color: #282828;
+}
+
+.headerNav a:visited {
+    color: #282828;
+}
+
+.headerNav a:hover {
+    color: #EFBA00;
+}
+
+.headerNav a:active {
+    color: #EFBA00;
+}
+
+#onThePage {
+    color: #888888;
+}
+
+.mobileMenu, .mobileToggleMenu  {
+    display: none;
+}
+
+
+/* Footer */
+footer {
+    background-color: #282828;
+    color: white;
+}
+
+footer .contentMaxWidth {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.footerNav {
+    margin-bottom: 100px;
+} 
+
+.footerNav img{
+    margin: 0 30px;
+}
+
+.copyRight {
+    font-size: 16px;
+    color: #CDCDCD;
+    font-weight: 100;
+}
+
+
+/* Media query */
+/* Tablets(less than 992px) */
+@media only screen and (max-width: 991.98px) {
+    p, li {
+        font-size: 17px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+
+    /* Navigation */
+    .headerNav {
+        font-size: 22px;
+    }
+
+    .headerNav ul {
+        width: 300px;
+    }
+    
+}
+
+/* Phones(less than 768px) */
+@media only screen and (max-width: 767.98px) {
+    p, li {
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .homepageContentH1 {
+        margin-bottom: 30px;
+    }
+
+    .responsiveFlexBox {
+        flex-direction: column;
+    }
+
+
+    /* Header */
+    .logoAndMenu {
+        padding-bottom: 15px;
+    }
+
+    .logoImage {
+        width: 150px;
+    }
+
+    /* Navigation */   
+    .headerNav{
+        font-size: 20px;
+    }
+
+    .desktopMenu{
+        display: none;
+    }
+
+    .mobileMenu {
+        display: block;
+        text-align: right;
+    }
+
+    .mobileToggleMenu {
+        display: block;
+        background-color: #FFD935;
+    }
+
+    .mobileToggleMenu ul {
+        width: 100%;
+    }
+
+    .mobileToggleMenu li {
+        padding: 15px 0;
+        border-bottom: solid #CBA70A 1px;
+        text-align: center;
+    }
+
+    #lastToggleMenu {
+        border-bottom: none;
+    }
+    
+    .mobileToggleMenu a:hover {
+        color: #A99232;
+    }
+    
+    .mobileToggleMenu a:active {
+        color: #A99232;
+    }
+    
+    /* Footer */
+    .footerNav img{
+        width: 15%;
+        margin: 0 4%;
+    }
+
+    footer .contentMaxWidth {
+        padding-top: 60px;
+    }
+    
+    .footerNav {
+        margin-bottom: 60px;
+    } 
+
+}
+
+
+

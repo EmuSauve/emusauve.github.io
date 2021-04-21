@@ -1,0 +1,339 @@
+/* Styles used for case study pages */
+
+/* Bootstrap style reset */
+dl, ol, ul {
+    margin-bottom: 0;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+}
+
+/* Common case study section style*/
+.caseStudySection {
+    margin-top: 60px;
+    padding: 30px 0;
+}
+
+.twoColumnFlexChild {
+    width: 48%;
+}
+
+.threeColumnFlexChild {
+    width: 32%;
+}
+
+.sectionTitleLeft {
+    width: 25%;
+}
+
+.sectionContentRight {
+    width: 73%;
+}
+
+.sectionContentRight ol{
+    margin-left: 15px;
+}
+
+.sectionContentRight img{
+    width: 100%;
+}
+
+.sectionContentStyledText {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color:rgb(99, 99, 99);
+}
+
+.marginBottomBig {
+    margin-bottom: 70px;
+}
+
+.marginBottomSmall {
+    margin-bottom: 30px;
+}
+
+.halfSizeImage {
+    width: 50% !important;
+}
+
+.dropshadow {
+    filter: drop-shadow(0px 2px 10px rgb(0,0,0,0.15));
+}
+
+.imageAroundMargin {
+    margin: 10px 0;
+}
+
+.miniTitleBox {
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+.textBox {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title section */
+.titleSection .contentMaxWidth{
+    align-items: center;
+    padding: 40px 0;
+}
+
+.titileSectionCopy {
+    width: 40%;
+}
+
+.titileSectionCopy img {
+    margin-bottom: 30px;
+}
+
+.titileSectionCopy p {
+    color: white;
+}
+
+.titleSectionImage {
+    width: 60%;
+}
+
+/* Bootstrap carousel style */
+.carousel-indicators {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.carousel-indicators button {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+}
+
+.carousel-control-prev,.carousel-control-next {
+    width: auto;
+}
+
+
+/* Abstract Section */
+
+
+/* Process Section */
+.processSection {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.secondNavigation {
+    padding: 0 !important;
+}
+
+.secondNavContainer {
+    padding: 0;
+}
+
+.secondNavContainer .nav-item{
+    margin-right: 40px;
+}
+
+.secondNavContainer .nav-link{
+    padding: 0 !important;
+}
+
+.secondNavContainer .navbar-toggler{
+    margin-bottom: 0;
+    padding: 3px 5px;
+}
+
+.secondNavContainer .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* Other */
+.beforeAfterBox,.beforeAfterBoxHalf {
+    width: 45%;
+}
+
+.beforeAfterArrow,.beforeAfterArrowHalf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prototypeBox .responsiveFlexBox{
+    align-items: center;
+}
+
+/* Eva */
+/* Title section */
+.evaPage .titileSectionCopy img {
+    width: 50%;
+}
+
+/* Result Section */
+.evaPage .prototypeBox .responsiveFlexBox img{
+    width: 80%;
+}
+
+/* Other */
+.evaPage .beforeAfterArrow,.beforeAfterArrowHalf {
+    margin: 0 5px 90px 5px;
+}
+
+
+/* ISC */
+/* Title section */
+.iscPage .titileSectionCopy img {
+    width: 100%;
+}
+
+
+
+
+
+/* Media query */
+
+/* Smaller desktop(less than 1171px) */
+/* For Bootstrap nav style*/
+@media only screen and (max-width: 1170.98px) {
+
+    /* Process Section */
+    .secondNavContainer .nav-item{
+        margin-right: 13px;
+    }
+
+}
+
+/* Tablets(less than 992px) */
+@media only screen and (max-width: 991.98px) {
+
+    /* Process Section */
+    .secondNavContainer .nav-item{
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+}
+
+/* Phones(less than 768px) */
+@media only screen and (max-width: 767.98px) {
+
+
+
+    .sectionTitleLeft {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .sectionContentRight {
+        width: 100%;
+    }
+
+    .titileSectionCopy,.titleSectionImage,.twoColumnFlexChild,.threeColumnFlexChild,.beforeAfterBox {
+        width: 100%;
+    }
+    
+    .sectionContentStyledText {
+        font-size: 22px;
+    }
+
+    .textBox {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .halfSizeImage {
+        width: 100% !important;
+    }
+
+    /* Title section */
+    .titileSectionCopy {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /* Process Section */
+    .processSection .responsiveFlexBox {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .processSection .sectionTitleLeft {
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .processSection .sectionContentRight {
+        text-align: right;
+    }
+
+    .secondNavContainer {
+        justify-content: flex-end !important;
+    }
+
+    /* Prototyping & testing Section  */
+    .twoColumnFlexChildRow {
+        flex-direction: row;
+    }
+
+    .beforeAfterArrow {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .beforeAfterArrow img {
+        width: 5%;
+        transform: rotate(90deg);
+    }
+
+    /* Eva */
+    /* Title section */
+    .evaPage .titileSectionCopy img{
+        width: 40%;
+    }
+
+    /* Prototyping & testing Section  */
+    .evaPage .beforeAfterArrow {
+        margin: 0 0 20px 0;
+    }
+    /* Result Section */
+    .prototypeBox {
+        text-align: center;
+    }
+    
+    .prototypeBox .responsiveFlexBox img{
+        width: 60%;
+    }
+
+    
+
+    /* ISC */
+    /* Title section */
+    .iscPage .titileSectionCopy img{
+        width: 90%;
+    }
+
+
+
+}
+
+
+
+

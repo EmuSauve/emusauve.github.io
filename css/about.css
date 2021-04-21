@@ -1,0 +1,122 @@
+p {
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5 {
+    margin-bottom: 10px;
+}
+
+.responsiveFlexBox, .nonresponsiveFlexBox {
+    align-items: center;
+}
+
+
+/* About me section */
+
+.aboutMe {
+    margin-top: 100px;
+}
+
+.aboutTextBox {
+    width: 60%;
+}
+
+.aboutImageBox {
+    width: 30%;
+}
+
+.aboutImageBox img{
+    width: 100%;
+}
+
+
+
+/* History of me section */
+.historyOfMe {
+    margin: 100px 0;
+}
+
+.historyBox {
+    margin: 15px 0;
+}
+
+.historyImageBox {
+    width: 15%;
+}
+
+.historyImageBox img{
+    width: 100%;
+}
+
+
+.historyTextBox {
+    width: 80%;
+}
+
+.verticalLineBox {
+    width: 15%;
+    display: flex;
+}
+
+.verticalLine {
+    border-left: 2px dotted rgb(199, 199, 199);
+    height: 70px;
+    margin: 0 auto;
+}
+
+
+
+/* Media query */
+/* Tablets(less than 992px) */
+@media only screen and (max-width: 991.98px) {
+
+    
+}
+
+/* Phones(less than 768px) */
+@media only screen and (max-width: 767.98px) {
+    .nonresponsiveFlexBox {
+        align-items: start;
+    }
+
+    .aboutMe {
+        margin-top: 50px;
+    }
+
+    .aboutTextBox {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .aboutImageBox {
+        width: 50%;
+    }
+
+    .historyOfMe {
+        margin: 70px 0;
+    }
+
+    .historyOfMe .contentMaxWidth{
+        border-top: 2px dotted rgb(199, 199, 199);
+        padding-top: 70px;
+    }
+
+    .historyBox {
+        margin: 0 0 80px;
+    }
+
+    .historyImageBox {
+        width: 20%;
+    }
+    
+    .historyTextBox {
+        width: 70%;
+    }
+
+    .verticalLineBox {
+        display: none;
+    }
+}
+
+
+

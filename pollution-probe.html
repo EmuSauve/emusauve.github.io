@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollution Probe / Case study</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/casestudies.css" type="text/css">
+
+
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body class="pollutionProbePage">
+
+    <!-- Header -->
+    <header>
+        <div class="contentMaxWidth">
+            <div class="logoAndMenu">
+                <a href="index.html"><img class="logoImage" src="images/logo.svg" alt="Emu Sauve / Home"></a>
+                <!--Menu normal-->
+                <nav class="headerNav">
+                    <ul class="desktopMenu">
+                        <li><a href="index.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Résumé</a></li>
+                    </ul>
+                </nav>
+                <!--Menu mobile-->
+                <div class="mobileMenu">
+                    <a class="mobileMenuIcon" href="#"><img src="images/hamburger.svg" alt="Menu icon"></a>
+                </div>
+            </div>
+        </div>
+        <nav class="headerNav mobileToggleMenu">
+            <div class="contentMaxWidth">
+                <ul>
+                    <a href="index.html">
+                        <li>Projects</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li id="lastToggleMenu">Résumé</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Title section -->
+    <!-- This section was created using Bootstrap 5’s carousel component -->
+    <section class="titleSection pollutionProbeColor">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="titileSectionCopy">
+                <img src="images/logo-PollutionProbe.svg" alt="Pollution Probe logo">
+                <p>Redesigning and organizing an environmental conservation group's content-heavy website to visually
+                    communicate their goals, history, and brand.</p>
+            </div>
+            <div class="titleSectionImage">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/pollution-probe/slide1.png" class="d-block w-100"
+                                alt="Pollution Probe mockup image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pollution-probe/slide2.png" class="d-block w-100"
+                                alt="Pollution lo-fi wireframe images">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pollution-probe/slide3.png" class="d-block w-100"
+                                alt="Pollution hi-fi wireframe images">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="caseStudySection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Abstract</h3>
+            </div>
+            <div class="sectionContentRight">
+                <p>
+                    <strong>Project background:</strong> In a UX/UI Design Bootcamp, we had a design challenge project
+                    to design a nonprofit organization website.<br>
+                    <br>
+                    <strong>Project type:</strong> Group project / Team of 4<br>
+                    <strong>Timeline:</strong> 4 weeks<br>
+                    <strong>My role:</strong> UX researcher, UX/UI designer, Logo designer<br>
+                    <strong>Tool used:</strong> Miro, Figma, Trello, Zoom<br>
+                    <br>
+                    <strong>The problem:</strong> Pollution Probe’s current website design is dated and cluttered with
+                    content that doesn’t communicate the organization’s mission statement clearly.<br>
+                    <strong>The solution:</strong> Re-designing the existing content-heavy website to a minimal,
+                    visually communicative one with a clear brand statement.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="caseStudySection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>About the organization</h3>
+            </div>
+            <div class="sectionContentRight">
+                <img class="halfSizeImage marginBottomSmall" src="images/pollution-probe/pp-currentLogo.png"
+                    alt="Current organization’s logo">
+                <p>
+                    Pollution Probe is a nonprofit group that seeks to improve Canadian's health through research,
+                    education, promotion, and advocacy of actions to reduce pollution. <br>
+                    As UX/UI designers we worked with our client Sabah Ibrahim to create a digital experience that will
+                    encourage people to become a part of the community and foster support networks to assist the
+                    organization’s initiatives.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <!-- This section was created using Bootstrap 5’s nav component -->
+    <section class="caseStudySection processSection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Process</h3>
+            </div>
+            <div class="sectionContentRight">
+                <nav class="navbar navbar-expand-lg navbar-light secondNavigation">
+                    <div class="container-fluid secondNavContainer">
+                        <div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" aria-current="page" href="#researchSection">1.
+                                            Research</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#validiationAndTestingSection">2.
+                                            Ideation & brainstorming</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#informationArchitectureSection">3.
+                                            Prototyping & testing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#prototypingAndTestingSection">4.
+                                            Result</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. Research Section -->
+    <section class="caseStudySection" id="researchSection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>1. Research</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Stakeholder interview
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        We started our research by interviewing the research & communications coordinator of the
+                        Pollution Probe organization. The goal of this interview was to understand what areas and
+                        sections of the website need to be improved from the agency's point of view.
+                    </p>
+                </div>
+
+                <div class="responsiveFlexBox marginBottomBig">
+                    <div class="twoColumnFlexChild marginBottomSmall">
+                        <strong>Remote stakeholder interview image</strong>
+                        <img src="images/pollution-probe/stakeholder-interview.jpg"
+                            alt="Remote stakeholder interview image">
+
+                    </div>
+                    <div class="twoColumnFlexChild">
+                        <strong>Existing website</strong>
+                        <img src="images/pollution-probe/existingWebsiteDesign.png" alt="Existing website image">
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Main insights:</strong>
+                        <ol>
+                            <li>Despite the organization's rich history and importance of their work, its visibility is
+                                falling off. The website's main goal is to showcase who they are and their long history,
+                                but it is failing.</li>
+                            <li>The organization wants to convey its mission effectively in a visual way using as little
+                                text as possible on the website.</li>
+                            <li>Hoping to redesign the current logo.</li>
+                            <li>Wants to have an interactive and clickable timeline of their organization history.</li>
+                            <li>Current users of the website are people who are already in the industry or working close
+                                to the industry, but the organization would love to have more public education
+                                components and welcome a broader audience.</li>
+                        </ol>
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        User research
+                    </p>
+                </div>
+
+
+                <div class="marginBottomBig">
+                    <p>
+                        We also conducted a survey of 40 people and 5 interviews with users who are interested in
+                        environmental conservation. The research data was synthesized into an affinity diagram and user
+                        persona.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Affinity diagram</strong>
+                    </p>
+                    <img src="images/pollution-probe/affinity-diagram.png" alt="Affinity diagram image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>User persona</strong>
+                    </p>
+                    <img src="images/pollution-probe/user-persona.png" alt="User persona image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Define problems
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Problem statement:</strong>
+                    </p>
+                    <p>
+                        “Environmentally concerned individuals who are eager to take action want to find ways to
+                        control/reduce pollution and its ill effects. However, they feel challenged to find the right
+                        agency as a lot of research goes into distinguishing authentic organizations from fake ones.
+                        Given their genuine interest in environmental conservation, they want to make sure that their
+                        contribution is actually utilized to make a difference.
+                        How might we help environmentally concerned individuals like Dianna access information about the
+                        initiatives that they can support to help them achieve their goal of environmental conservation
+                        so that their actions encourage more people to get aligned with this goal?”
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Ideation & brainstorming Section -->
+    <section class="caseStudySection" id="validiationAndTestingSection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>2. Ideation & brainstorming</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Set our scope
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        After defining the problem, we went ahead and conducted the “I like, I wish, What if”
+                        brainstorming to generate ideas and also analyzed what features we would keep or change on the
+                        current website of the organization.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild marginBottomSmall">
+                            <p>
+                                <strong>Brainstorming</strong>
+                            </p>
+                            <img src="images/pollution-probe/brainstorming.png" alt="Brainstorming image">
+
+                        </div>
+                        <div class="twoColumnFlexChild">
+                            <p>
+                                <strong>Feature prioritization matrix</strong>
+                            </p>
+                            <img src="images/pollution-probe/feature-prioritization-matrix.png"
+                                alt="Feature prioritization matrix image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Determined main features:</strong>
+                    </p>
+                    <div class="responsiveFlexBox">
+                        <div class="threeColumnFlexChild textBox pollutionProbeSubColor">
+                            <p>
+                                Easier and more interactive website for the users
+                            </p>
+                        </div>
+                        <div class="threeColumnFlexChild textBox pollutionProbeSubColor">
+                            <p>
+                                Immediately showcase Who and What the organization is all about
+                            </p>
+                        </div>
+                        <div class="threeColumnFlexChild textBox pollutionProbeSubColor">
+                            <p>
+                                Featuring the Donation page they currently have and bringing some more emphasis on it on
+                                the homepage
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Information architecture
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        As we finish establishing our ideas, we iterated the current navigational site map by conducting
+                        an open card sorting. We removed 4 sections of the current navigation and renamed 2 of them,
+                        “Our Work” from “Sectors” and “Our Research” from “Publications” to create an easier
+                        understanding for the users.
+                    </p>
+                </div>
+
+                <div class="marginBottomSmall">
+                    <img src="images/pollution-probe/card-sorting.png" alt="Card sorting image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Prototyping & testing Section -->
+    <section class="caseStudySection" id="informationArchitectureSection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>3. Prototyping & testing</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Process of prototyping
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="marginBottomSmall">
+                        <p>
+                            <strong>Low-Fidelity prototype</strong>
+                        </p>
+                    </div>
+                    <div class="responsiveFlexBox">
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>Homepage:</p>
+                            <img src="images/pollution-probe/lofi-homepage.png" alt="Lo-fi homepage wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>About:</p>
+                            <img src="images/pollution-probe/lofi-about.png" alt="Lo-fi about page wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild">
+                            <p>Donation:</p>
+                            <img src="images/pollution-probe/lofi-donation.png" alt="Lo-fi donation page wireframe">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="marginBottomSmall">
+                        <p>
+                            <strong>First user test and iteration</strong>
+                        </p>
+                    </div>
+                    <div class="marginBottomSmall">
+                        <p>
+                            To determine if the redesigned website works as intended or not, we conducted our first user
+                            testing on low-fidelity prototype and iterated it based on the feedback.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="responsiveFlexBox marginBottomSmall">
+                        <div class="beforeAfterBox">
+                            <div class="miniTitleBox pollutionProbeSubColor">
+                                <p>Before</p>
+                            </div>
+                            <img class="dropshadow" src="images/pollution-probe/iteration1-before.png"
+                                alt="Iteration 1 before image">
+                        </div>
+                        <div class="beforeAfterArrow">
+                            <img src="images/arrow.svg" alt="arrow image">
+                        </div>
+                        <div class="beforeAfterBox">
+                            <div class="miniTitleBox pollutionProbeColor">
+                                <p>After</p>
+                            </div>
+                            <img class="dropshadow" src="images/pollution-probe/iteration1-after.png"
+                                alt="Iteration 1 after image">
+                        </div>
+                    </div>
+                    <p>
+                        The major change we made was on the design of the donation page. In the first version, we had links
+                        to different donation options and highlighted causes above a donation form. This made users confused
+                        since they simply just wanted to donate using the form instead of seeing other options. From this
+                        data, We changed the content order and streamlined the donation process.
+                    </p>    
+                </div>
+                
+                <div class="marginBottomBig">
+                    <div class="marginBottomSmall">
+                        <p>
+                            <strong>Hi-Fidelity prototype</strong>
+                        </p>
+                    </div>
+                    <div class="responsiveFlexBox">
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>Homepage:</p>
+                            <img src="images/pollution-probe/hifi1-homepage.png" alt="Fi-fi homepage wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>About:</p>
+                            <img src="images/pollution-probe/hifi1-about.png" alt="Hi-fi about page wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild">
+                            <p>Donation:</p>
+                            <img src="images/pollution-probe/hifi1-donation.png" alt="Hi-fi donation page wireframe">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="marginBottomSmall">
+                        <p>
+                            <strong>Second user test and iteration</strong>
+                        </p>
+                    </div>
+                    <div class="marginBottomSmall">
+                        <p>
+                            We performed another round of user tests on our high-fidelity prototype with the same tasks
+                            as the first user test in order to determine if the design iteration solved the problems we
+                            found from the first round of user test.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="responsiveFlexBox marginBottomSmall">
+                        <div class="beforeAfterBox">
+                            <div class="miniTitleBox pollutionProbeSubColor">
+                                <p>Before</p>
+                            </div>
+                            <img class="dropshadow" src="images/pollution-probe/iteration2-before.png"
+                                alt="Iteration 2 before image">
+                        </div>
+                        <div class="beforeAfterArrow">
+                            <img src="images/arrow.svg" alt="arrow image">
+                        </div>
+                        <div class="beforeAfterBox">
+                            <div class="miniTitleBox pollutionProbeColor">
+                                <p>After</p>
+                            </div>
+                            <img class="dropshadow" src="images/pollution-probe/iteration2-after.png"
+                                alt="Iteration 2 after image">
+                        </div>
+                    </div>
+                    <p>
+                        During the testing, some users did not notice the contents under the donation form. Therefore,
+                        we added a link to see other donation options on the prompt, which users will see after making a
+                        donation, so we can encourage users to go to see other sections of the page.
+                    </p>
+                </div>
+
+                <div class="marginBottomSmall">
+                    <div class="responsiveFlexBox marginBottomSmall">
+                        <div class="beforeAfterBox">
+                            <div class="miniTitleBox pollutionProbeSubColor">
+                                <p>Before</p>
+                            </div>
+                            <img class="dropshadow" src="images/pollution-probe/iteration3-before.png"
+                                alt="Iteration 3 before image">
+                        </div>
+                        <div class="beforeAfterArrow">
+                            <img src="images/arrow.svg" alt="arrow image">
+                        </div>
+                        <div class="beforeAfterBox">
+                            <div class="miniTitleBox pollutionProbeColor">
+                                <p>After</p>
+                            </div>
+                            <img class="dropshadow" src="images/pollution-probe/iteration3-after.png"
+                                alt="Iteration 3 after image">
+                        </div>
+                    </div>
+                    <p>
+                        We also improved our contribution timeline on the about page to have more intuitive interaction for users by adding an indicator for the currently visible year. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Result Section -->
+    <section class="caseStudySection" id="prototypingAndTestingSection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>4. Result</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Logo designing
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild marginBottomSmall">
+                            <img src="images/pollution-probe/logo-design1.svg" alt="Logo image">
+                        </div>
+                        <div class="twoColumnFlexChild">
+                            <img class="marginBottomSmall" src="images/pollution-probe/logo-design2.svg" alt="Logo image">
+                            <img src="images/pollution-probe/logo-design3.svg" alt="Logo image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        During the stakeholder interview, they mentioned that the current logo looks very 70s design and hoping to have a new one, but they like the idea behind the current logo: wave and cloud.
+                        Therefore, I designed the organization's new logo with modern and clean look while maintaining the original concept. I also aimed to keep the number of different color use low in the logo design, so it can be easily used for printing.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Final wireframe design
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="responsiveFlexBox">
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>Homepage:</p>
+                            <img src="images/pollution-probe/hifi2-homepage.png" alt="Fi-fi homepage wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>About:</p>
+                            <img src="images/pollution-probe/hifi2-about.png" alt="Hi-fi about page wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild">
+                            <p>Donation:</p>
+                            <img src="images/pollution-probe/hifi2-donation.png" alt="Hi-fi donation page wireframe">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Final prototype
+                    </p>
+                </div>
+
+                <div class="marginBottomSmall prototypeBox">
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild">
+                            <img class="marginBottomSmall" src="images/pollution-probe/final-mockup.png" alt="Final prototype image">
+                        </div>
+                        <div class="twoColumnFlexChild">
+                            <a href="https://www.figma.com/proto/xnr7006S5T1OaAucdSHsZF/Pollution-Probe-_11.01.2021-%E5%80%8B%E4%BA%BA%E7%94%A8?node-id=269%3A649&scaling=min-zoom&page-id=270%3A356"
+                                target="_blank">
+                                <button class="buttonStyle pollutionProbeColor" type="button">Click to see the prototype</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Takeaways Section -->
+    <section class="caseStudySection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Conclusion &
+                    future opportunities</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomSmall">
+                   <p>
+                    Takeaway:<br>
+                    Having interviews with both the organization and users helped us to find the problems in each of their blind spots. To come up with solutions, it was crucial to find the overlapping point between the organization's needs and the users' needs, instead of focusing on one over the other.
+                   </p>
+                </div>
+
+
+                <div class="marginBottomBig">
+                    <p>
+                        Future opportunities:<br>
+                        <ol>
+                            <li>Work towards the responsive web design for the organization’s website and look into the possibility of building an app to increase interaction between the target audience and the agency.</li>
+                            <li>Through our research we found out that people are more willing to donate their time and effort before making a monetary donation. So we would look into the possibility of providing volunteering opportunities easily accessible on the website.</li>
+                            <li>Seek feedback from our stakeholder to evaluate and update our design upto her expectations.</li>
+                        </ol>
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="contentMaxWidth">
+            <h1 class="homepageContentH1">Let’s connect!</h1>
+            <nav class="footerNav">
+                <a href="#"><img src="images/contact-email.svg" alt="Email"></a>
+                <a href="#"><img src="images/contact-linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="images/contact-github.svg" alt="Github"></a>
+                <a href="#"><img src="images/contact-dribbble.svg" alt="Dribble"></a>
+            </nav>
+            <p class="copyRight">Copyright ©︎ 2021 Emu Sauve</p>
+        </div>
+    </footer>
+
+</body>
+
+<!-- jQuery-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+<!-- Java script -->
+<script src="js/index.js"></script>
+
+<!-- Bootstrap Java script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+</script>
+
+</html>
