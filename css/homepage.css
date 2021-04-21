@@ -295,12 +295,12 @@
 
     .projectImageBox.projectImage4{
         background-position: center;
-        height: 50vw;
+        height: 60vw;
     }
 
     /* Skills */
     .skillsSection {
-        margin-bottom: 60px;
+        margin-bottom: 55px;
     }
 
     .skillsContainer {
