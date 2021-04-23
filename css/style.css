@@ -1,5 +1,4 @@
 /* Common styles throughout the website */
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     font-size: 18px;
     color: #282828;
 }
-
 
 h1, h2, h3, h4, h5 {
     font-family: 'Ubuntu', sans-serif;
@@ -55,7 +53,7 @@ a {
     max-width: 1140px;
 }
 
-.homepageContentH1 {
+.centerAlignH1 {
     margin-bottom: 60px;
     text-align: center;
 }
@@ -90,8 +88,9 @@ a {
     justify-content: space-between;
 }
 
-/* Project color */
 
+/* Project color */
+/* Eva */
 .evaColor {
     background-color: #4C956C;
 }
@@ -100,6 +99,7 @@ a {
     background-color: #8FC0A9;
 }
 
+/* ISC */
 .iscColor {
     background-color: #26374A;
 }
@@ -108,6 +108,7 @@ a {
     background-color: #396699;
 }
 
+/* Pollution Probe */
 .pollutionProbeColor {
     background-color: #007FA0;
 }
@@ -116,6 +117,14 @@ a {
     background-color: #76AE00;
 }
 
+/* Costco */
+.costcoColor {
+    background-color: #0060A7;
+}
+
+.costcoSubColor {
+    background-color: #4190CA;
+}
 
 
 /* Header */
@@ -133,6 +142,7 @@ header {
 header ul {
     list-style-type: none;
 }
+
 
 /* Navigation */
 .headerNav{
@@ -200,6 +210,8 @@ footer .contentMaxWidth {
 }
 
 
+
+
 /* Media query */
 /* Tablets(less than 992px) */
 @media only screen and (max-width: 991.98px) {
@@ -236,14 +248,13 @@ footer .contentMaxWidth {
         font-size: 20px;
     }
 
-    .homepageContentH1 {
+    .centerAlignH1 {
         margin-bottom: 30px;
     }
 
     .responsiveFlexBox {
         flex-direction: column;
     }
-
 
     /* Header */
     .logoAndMenu {

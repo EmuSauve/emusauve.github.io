@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costco Wholesale / Case study</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/casestudies.css" type="text/css">
+
+
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="contentMaxWidth">
+            <div class="logoAndMenu">
+                <a href="index.html"><img class="logoImage" src="images/logo.svg" alt="Emu Sauve / Home"></a>
+                <!--Menu normal-->
+                <nav class="headerNav">
+                    <ul class="desktopMenu">
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resume.pdf" target="_blank">Résumé</a></li>
+                    </ul>
+                </nav>
+                <!--Menu mobile-->
+                <div class="mobileMenu">
+                    <a class="mobileMenuIcon" href="#"><img src="images/hamburger.svg" alt="Menu icon"></a>
+                </div>
+            </div>
+        </div>
+        <nav class="headerNav mobileToggleMenu">
+            <div class="contentMaxWidth">
+                <ul>
+                    <a href="index.html#projects">
+                        <li>Projects</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="resume.pdf" target="_blank">
+                        <li id="lastToggleMenu">Résumé</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Title section -->
+    <!-- This section was created using Bootstrap 5’s carousel component -->
+    <section class="titleSection costcoColor">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="titileSectionCopy mediumTitleImage">
+                <img src="images/logo-Costco.svg" alt="Costco Wholesale logo">
+                <p>Conducting user research to reveal problems behind Costco's current website and ​prototyping
+                    redesigned pages with HTML, CSS, JavaScript (jQuery & Slick), and Bootstrap.</p>
+            </div>
+            <div class="titleSectionImage">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/costco/slide1.png" class="d-block w-100" alt="Costco mockup image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/costco/slide2.png" class="d-block w-100"
+                                alt="Costco new-design screenshot images">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/costco/slide3.png" class="d-block w-100"
+                                alt="Costco front-end development images">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Abstract Section -->
+    <section class="caseStudySection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Abstract</h3>
+            </div>
+            <div class="sectionContentRight">
+                <p>
+                    <strong>Project background:</strong> As a final project of the UX/UI Design Bootcamp, our team
+                    decided to redesign Costco Wholesale’s website.<br>
+                    <br>
+                    <strong>Project type:</strong> Group project / team of 3<br>
+                    <strong>Timeline:</strong> 2 weeks<br>
+                    <strong>My role:</strong> UX researcher, front-end developer<br>
+                    <strong>Tool used:</strong> Miro, Figma, HTML, CSS, JavaScript, jQuery, Bootstrap, Slick<br>
+                    <br>
+                    <strong>The problem:</strong> Due to the pandemic, more people stopped shopping at actual stores and
+                    began shopping online. However, Costco's great selection of products and services, which is one of
+                    Costco's attractions, makes the website unpleasantly dense and not a desirable place to shop for
+                    those users who want to minimize their time browsing e-commerce websites.<br>
+                    <strong>The solution:</strong> Redesign the existing website by organizing navigation systems and
+                    implementing intuitive UI design with properly categorized sections and limiting the over-exposure
+                    of products and services, so that users are able to focus on their goals.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="caseStudySection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Opportunity</h3>
+            </div>
+            <div class="sectionContentRight">
+                <p>
+                    Costco Wholesale is an American multinational corporation which operates a chain of membership-only
+                    big-box retail stores. Because of the pandemic, many customers are switching from in-store shopping
+                    to online. However, we believe that Costco is missing an opportunity to convert these customers due
+                    to a user experience which overwhelms first-time visitors especially those who are used to
+                    targeted-shopping rather than browsing. That’s why we have chosen to redesign the Costco wholesale
+                    website.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <!-- This section was created using Bootstrap 5’s nav component -->
+    <section class="caseStudySection processSection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Process</h3>
+            </div>
+            <div class="sectionContentRight">
+                <nav class="navbar navbar-expand-lg navbar-light secondNavigation">
+                    <div class="container-fluid secondNavContainer">
+                        <div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" aria-current="page" href="#sectionOne">1.
+                                            Research</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#sectionTwo">2.
+                                            Definition & ideation</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#sectionThree">3.
+                                            Prototyping & testing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#sectionFour">4.
+                                            Front-end development</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. Research Section -->
+    <section class="caseStudySection" id="sectionOne">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>1. Research</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Heuristic evaluation
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        We started our research phase by conducting a heuristic evaluation on the Costco.ca website to
+                        understand more about it and build problem assumptions, which were used to create the user
+                        research plan later.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Key findings:</strong>
+                        <ol>
+                            <li>The homepage lacks white space, and the information on the page is overloaded. This
+                                gives people a cluttered and overwhelming impression.</li>
+                            <li>It’s difficult to identify different content on the page since each section lacks
+                                headings.</li>
+                            <li>The homepage is not easy to scan. Information needs to be categorized properly in order
+                                to create an intuitive user journey.</li>
+                            <li>Location on the site is not easily identifiable because the navigation status doesn’t
+                                change and the existent of breadcrumbs is inconsistent.</li>
+                            <li>Contact information is not very accessible for users. Several steps are needed to find
+                                the phone numbers of Costco customer service.</li>
+                        </ol>
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Survey
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        After defining our problem assumptions, we moved to user research by collecting quantitative and
+                        qualitative data. Firstly, we surveyed 20 participants with 10 questions related to their
+                        shopping experience and preferences.
+                    </p>
+                </div>
+
+                <div class="responsiveFlexBox marginBottomBig">
+                    <div class="twoColumnFlexChild marginBottomSmall">
+                        <img src="images/costco/survey1.png" alt="Survey results image">
+                    </div>
+                    <div class="twoColumnFlexChild">
+                        <img src="images/costco/survey2.png" alt="Survey results image">
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Key findings:</strong>
+                        <ol>
+                            <li>Even though shopping at Costco is popular, its <strong>website has been
+                                    underused.</strong> (50% of people responded that they shop at Costco, but only 20%
+                                of people use the Costco website)</li>
+                            <li>People’s main purpose of visiting Costco's website is <strong>checking deals.</strong>
+                                (75% of people responded that they use Costco.ca for checking deals)</li>
+                            <li>The current Costco website makes people feel <strong>overwhelmed.</strong> (68% of
+                                people responded that Costco.ca looks too cluttered and 79% of people responded that it
+                                is overwhelming)</li>
+                        </ol>
+                    </p>
+                </div>
+
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        User interviews
+                    </p>
+                </div>
+
+
+                <div class="marginBottomBig">
+                    <p>
+                        We also interviewed 6 users who have experienced shopping at Costco before. After we collected
+                        raw data, we analyzed it using an affinity diagram.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Affinity diagram</strong>
+                    </p>
+                    <img src="images/costco/affinity-diagram.jpg" alt="Affinity diagram image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Key findings:</strong>
+                        <ol>
+                            <li>Since the pandemic started, our interviewees reduced their frequency of in-store
+                                shopping, and they have never used Costco.ca for online shopping. This means regular
+                                customers simply stopped shopping with Costco.</li>
+                            <li>Instead of shopping at Costco, people are going to less busy stores or buying groceries
+                                using other shopping websites such as Amazon and Walmart. </li>
+                            <li>Users are not happy to shop at the Costco website because of its cluttered content and
+                                dense information makes customers want to leave the site.</li>
+                            <li>People want to easily find deal information on the Costco website. The thrifty prices
+                                are the most popular reason why people shop at Costco.</li>
+                            <li>Users do not like spending much time shopping online. Their behavior is more
+                                targeted-buying than browsing.</li>
+                        </ol>
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Creating a user persona
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        Based on our user research data from the survey and interviews, we created our user persona.
+                        This persona had been referenced often during our project when we made design decisions: "What
+                        does Sandra think about this?"
+                    </p>
+                </div>
+
+                <div class="marginBottomSmall">
+                    <img src="images/costco/user-persona.png" alt="User persona image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Ideation & brainstorming Section -->
+    <section class="caseStudySection" id="sectionTwo">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>2. Definition & ideation</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        User insights
+                    </p>
+                </div>
+
+                <div class="marginBottomBig bigQuotes">
+                    <p>
+                        “I can definitely feel the Costco vibe from this (Costco’s current) website. I don’t know if
+                        that is good or not” - interviewee
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        Several interviewees mentioned that Costco.ca reminds of them actual Costco stores: so many
+                        things going on. Besides their thrifty price, the wide range of products and services is one of
+                        reason why Costco attracts customers. It provide positive shopping experience when people shop
+                        at stores. However, when that consept is presented on the website, the experience became rather
+                        overwhelming because the space is very limited and the way information can be conveyed is only
+                        by text or images. There need to be a different approach tailered to web.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Defining the problems
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Problem statement:</strong>
+                    </p>
+                    <p>
+                        “From our user research, we discovered that people who shop and provide essentials for their
+                        family want to minimize their time browsing e-commerce websites. However, Costco's great
+                        selection of products and services, which is one of Costco's attractions, makes the website
+                        unpleasantly dense and not a desirable place to shop for those users. How can we transform the
+                        browsing user journey at Costco.ca into an enjoyable shopping experience so they can minimize
+                        time and money spent online?”
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Setting our scope
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        After defining the problems, our next step was to find out how we are going to solve those
+                        problems by generating ideas using a “I like, I wish and What if” brainstorming method. Next, we
+                        used the feature prioritization matrix to determine which features we would like to focus on for
+                        this project based on impact and feasibility.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild marginBottomSmall">
+                            <p>
+                                <strong>Brainstorming</strong>
+                            </p>
+                            <img src="images/costco/brainstorming.png" alt="Brainstorming image">
+
+                        </div>
+                        <div class="twoColumnFlexChild">
+                            <p>
+                                <strong>Feature prioritization matrix</strong>
+                            </p>
+                            <img src="images/costco/feature-prioritization-matrix.png"
+                                alt="Feature prioritization matrix image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Main features decided upon:</strong>
+                    </p>
+                    <div class="responsiveFlexBox marginBottomExtraSmall marginBottomDesktopOnly">
+                        <div class="twoColumnFlexChild textBox costcoSubColor">
+                            <p>
+                                Make the deals category easier to find
+                            </p>
+                        </div>
+                        <div class="twoColumnFlexChild textBox costcoSubColor">
+                            <p>
+                                Organize content on the homepage by limiting the amount of information shown
+                            </p>
+                        </div>
+                    </div>
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild textBox costcoSubColor">
+                            <p>
+                                Make each section on the homepage distinguishable by adding proper headings and using
+                                different styles
+                            </p>
+                        </div>
+                        <div class="twoColumnFlexChild textBox costcoSubColor">
+                            <p>
+                                Redesign the main navigation bar to provide an easier navigation system
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Organizing the navigation
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        Our research confirmed that the navigation system and categorization of Costco.ca don’t fulfill their functions. 
+                        Users felt it was very crowded and difficult to find items and company information. Hence, we rearranged the navigation categories, removed duplicated tabs, and grouped sections that relate to the same content. 
+                    </p>
+                </div>
+
+                <div class="marginBottomSmall">
+                    <img src="images/costco/organizing-navigation1.png" alt="Organizing the navigation image">
+                </div>
+
+                <div class="marginBottomSmall">
+                    <img src="images/costco/organizing-navigation2.png" alt="Organizing the navigation image">
+                </div>
+
+
+            </div>
+    </section>
+
+    <!-- 3. Prototyping & testing Section -->
+    <section class="caseStudySection" id="sectionThree">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>3. Prototyping & testing</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p>
+                        Our team’s UI designer created low to high-fidelity prototypes using Figma. During the prototyping iterations, we conducted two rounds of user testing to find usability issues.
+                    </p>
+                </div>
+
+                <div class="marginBottomSmall">
+                    <div class="responsiveFlexBox">
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <img class="dropshadow" src="images/costco/paper-wireframe.png" alt="Paper wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <img class="dropshadow" src="images/costco/mid-fi-prototype.png" alt="Middle-fidelity wireframe">
+                        </div>
+                        <div class="threeColumnFlexChild">
+                            <img class="dropshadow" src="images/costco/hi-fi-prototype.png" alt="high-fidelity wireframe">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Front-end development Section -->
+    <section class="caseStudySection" id="sectionFour">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>4. Front-end development</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p>
+                        Based on the prototype that our team member created on Figma, I built a functional hi-fidelity prototype with three pages using HTML, CSS, JavaScript, jQuery, Bootstrap, and Slick.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <div class="responsiveFlexBox">
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>Homepage:</p>
+                            <img class="dropshadow" src="images/costco/fe-homepage.png" alt="Homepage image">
+                        </div>
+                        <div class="threeColumnFlexChild marginBottomSmall">
+                            <p>Deals and Sales:</p>
+                            <img class="dropshadow" src="images/costco/fe-deals.png" alt="Deals and Sales page image">
+                        </div>
+                        <div class="threeColumnFlexChild">
+                            <p>Household Items:</p>
+                            <img class="dropshadow" src="images/costco/fe-household.png" alt="Household Items page image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        The biggest constraint I had with the front-end development phase was time; our whole project timeline was two weeks, so the time I could spend building the prototype was quite limited.
+                        Therefore, I did research and decided to use the CSS framework Bootstrap and jQuery plugin Slick to reduce the time of developing some complicated components. To align with the wireframe design, I restyled them with CSS overrides.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Using Bootstrap
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Responsive dropdown navigation menu</strong>
+                    </p>
+                    <img class="dropshadow" src="images/costco/dropdown-nav.png" alt="Responsive dropdown navigation menu image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Responsive footer menu</strong>
+                    </p>
+                    <img class="dropshadow" src="images/costco/footer-menu.png" alt="Responsive footer menu image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Hero section carousel</strong>
+                    </p>
+                    <img class="dropshadow" src="images/costco/hero-carousel.png" alt="Hero section carousel image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Using Slick
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        <strong>Responsive multi-item slider</strong>
+                    </p>
+                    <img class="dropshadow" src="images/costco/slider.png" alt="Responsive multi-item slider image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Responsiveness
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        All three pages (homepage, deals, and household) are coded to be fully responsive for all device sizes using CSS flexbox. 
+                    </p>
+                    <img class="dropshadow" src="images/costco/responsiveness.png" alt="Desktop, tablet, and mobile homepage image">
+                </div>
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        DRY (Don’t Repeat Yourself) code
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        To reduce repetition of code, I used utility classes and component-specific classes in different situations.
+                    </p>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        Utility classes:
+                    </p>
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild marginBottomSmall">
+                            <img src="images/costco/utility-classes.png" alt="Utility classes image">
+                        </div>
+                        <div class="twoColumnFlexChild">
+                            <p>
+                                One example of using utility classes in this project was flexbox. Since flexbox was heavily used in all pages, I created classes with different flexbox styles. Depending on the design, I was able to use those classes in HTML and avoid writing those styles repeatedly in CSS. It also prevented making too-specific classes that can be only used for certain components.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginBottomBig">
+                    <p>
+                        Component-specific classes:
+                    </p>
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild marginBottomSmall">
+                            <img src="images/costco/component-specific-classes.png" alt="Component-specific classes image">
+                        </div>
+                        <div class="twoColumnFlexChild">
+                            <p>
+                                I used component-specific classes for some components that appear often throughout the site, such as buttons or cards.
+                                This kept the HTML clean, and it became easier to change those components’ styles in the future if necessary.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="marginBottomBig">
+                    <p class=sectionContentStyledText>
+                        Final prototype
+                    </p>
+                </div>
+
+                <div class="marginBottomSmall prototypeBox">
+                    <div class="responsiveFlexBox">
+                        <div class="twoColumnFlexChild">
+                            <img class="marginBottomSmall" src="images/costco/prototype-desktop.png"
+                                alt="Final prototype image">
+                        </div>
+                        <div class="twoColumnFlexChild">
+                            <a href="https://emusauve.github.io/Costco_group7/"
+                                target="_blank">
+                                <button class="buttonStyle costcoColor" type="button">Click to see the
+                                    prototype</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Takeaways Section -->
+    <section class="caseStudySection">
+        <div class="contentMaxWidth responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Takeaways</h3>
+            </div>
+            <div class="sectionContentRight">
+
+                <div class="marginBottomBig">
+                    <p>
+                        I worked as a UX researcher and FE developer in this project, and it was a great experience because I made many discoveries and learned a lot. For example, using a framework and library helped me shorten the time developing complicated components in the tight project schedule. However, many specific hard-coded CSS rules were required to override their default style, and the code got longer and more complicated. I learned the pros and cons of using frameworks and libraries and how the choice of whether to use them or not depends on project style. This experience gave me perspective as an FE developer in addition to the designer's point of view. I believe that this will help me make more easily implementable design decisions in the future. 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="contentMaxWidth">
+            <h1 class="centerAlignH1">Let’s connect!</h1>
+            <nav class="footerNav">
+                <a href="mailto:em.kiuchi@gmail.com"><img src="images/contact-email.svg" alt="Email"></a>
+                <a href="https://www.linkedin.com/in/emu-sauve/" target="_blank"><img src="images/contact-linkedin.svg"
+                        alt="LinkedIn"></a>
+                <a href="https://github.com/EmuSauve" target="_blank"><img src="images/contact-github.svg"
+                        alt="Github"></a>
+                <!-- <a href="#"><img src="images/contact-dribbble.svg" alt="Dribble"></a> -->
+            </nav>
+            <p class="copyRight">Copyright ©︎ 2021 Emu Sauve</p>
+        </div>
+    </footer>
+
+</body>
+
+<!-- jQuery-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+<!-- Java script -->
+<script src="js/index.js"></script>
+
+<!-- Bootstrap Java script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+</script>
+
+</html>
