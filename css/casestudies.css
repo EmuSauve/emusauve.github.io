@@ -54,8 +54,12 @@ h1,h2,h3,h4,h5,h6 {
     color:rgb(99, 99, 99);
 }
 
+.marginBottomExtraBig {
+    margin-bottom: 110px;
+}
+
 .marginBottomBig {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .marginBottomSmall {
