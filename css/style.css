@@ -58,6 +58,14 @@ a {
     text-align: center;
 }
 
+.subpageTitle {
+    margin: 50px 0;
+}
+
+.subpageTitle h1 {
+    margin-bottom: 20px;
+}
+
 .highlightedText {
     background: linear-gradient(transparent 60%, #FFD935 0%);
 }
@@ -86,6 +94,14 @@ a {
 .nonresponsiveFlexBox {
     display: flex;
     justify-content: space-between;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.dropshadow {
+    filter: drop-shadow(0px 2px 10px rgb(0,0,0,0.15));
 }
 
 
@@ -154,7 +170,7 @@ header ul {
 
 .desktopMenu {
     display: flex;
-    width: 375px;
+    width: 450px;
     justify-content: space-between;
 }
 
@@ -180,6 +196,11 @@ header ul {
 
 .mobileMenu, .mobileToggleMenu  {
     display: none;
+}
+
+/* Main Section */
+.subpageMainSection {
+    margin-bottom: 100px;
 }
 
 

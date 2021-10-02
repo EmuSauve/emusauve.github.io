@@ -1,0 +1,103 @@
+/* Styles used for works pages */
+.hoverOpacity:hover {
+    opacity: 0.4;
+    transition: 0.1s;
+  }
+
+
+/* Works main page */
+.workCard {
+    width: 20%;
+    margin: 0 10px 30px;
+} 
+
+.workCard img {
+    width: 100%;
+}
+
+
+/* Works sub pages */
+.workSectionLeft {
+    width: 20%;
+    align-content: start;
+}
+
+.workSectionLeft a {
+    width: 48%;
+    height: min-content;
+    margin-bottom: 10px;
+}
+
+.workSectionLeft img {
+    width: 100%;
+}
+
+#worksOnThePage {
+    opacity: 0.4;
+}
+
+.workSectionRight {
+    width: 75%;
+}
+
+.workSectionRight img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.workSectionRight .nonresponsiveFlexBox {
+    align-items: center;
+}
+
+.arrowIcon {
+    color: rgb(117, 117, 117);
+    padding: 0 20px;
+}
+
+
+
+/* Media query */
+/* Tablets(less than 992px) */
+@media only screen and (max-width: 991.98px) {
+    .workCard {
+        width: 30%;
+    } 
+
+    .workSectionLeft {
+        width: 10%;
+    }
+
+    .workSectionLeft a {
+        width: 100%;
+    }
+
+    .workSectionRight {
+        width: 85%;
+    }
+
+    .workSectionRight i {
+        padding: 0 1vw;
+    }
+
+}
+
+/* Phones(less than 768px) */
+@media only screen and (max-width: 767.98px) {
+    .workCard {
+        width: 45%;
+        margin: 0 0 30px;
+    } 
+
+    .workSectionLeft {
+        display: none;
+    }
+
+    .workSectionRight {
+        width: 100%;
+    }
+
+    .arrowIcon {
+        font-size: 1.2em !important;
+    }
+    
+}
